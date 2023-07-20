@@ -138,8 +138,7 @@ export const AppThemeProvider: React.FC<Props> = ({ children }) => {
           secondary: '#999999',
           disabled: '#C3C1BD',
         },
-    
-  
+
         grey: {
           50: mode === 'dark' ? 'hsl(0, 0%, 10%)' : 'hsl(0, 5%, 95%)',
           100: mode === 'dark' ? 'hsl(0, 0%, 20%)' : 'hsl(0, 0%, 90%)',
